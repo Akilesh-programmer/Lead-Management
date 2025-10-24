@@ -1,0 +1,12 @@
+[2m> [22mnpm run start:dev
+
+npm error Missing script: "start:dev"
+npm error
+npm error Did you mean one of these?
+npm error   npm run start:all # run the "start:all" package script
+npm error   npm run start:user # run the "start:user" package script
+npm error   npm run start:lead # run the "start:lead" package script
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: C:\Users\sriprasath\AppData\Local\npm-cache\_logs\2025-10-24T05_54_28_736Z-debug-0.log

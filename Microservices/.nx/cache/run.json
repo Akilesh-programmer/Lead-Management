@@ -1,0 +1,87 @@
+{
+  "run": {
+    "command": "nx run-many -t serve -p auth-service user-service lead-service call-service media-service notification-service telecaller-service --parallel",
+    "startTime": "2025-10-24T05:54:28.312Z",
+    "endTime": "2025-10-24T05:54:29.013Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "telecaller-service:serve",
+      "target": "serve",
+      "projectName": "telecaller-service",
+      "hash": "14526126039395676061",
+      "startTime": "2025-10-24T05:54:28.336Z",
+      "endTime": "2025-10-24T05:54:28.586Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "lead-service:serve",
+      "target": "serve",
+      "projectName": "lead-service",
+      "hash": "13069167744064447188",
+      "startTime": "2025-10-24T05:54:28.336Z",
+      "endTime": "2025-10-24T05:54:28.612Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "media-service:serve",
+      "target": "serve",
+      "projectName": "media-service",
+      "hash": "10578790598013416259",
+      "startTime": "2025-10-24T05:54:28.336Z",
+      "endTime": "2025-10-24T05:54:28.613Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "auth-service:serve",
+      "target": "serve",
+      "projectName": "auth-service",
+      "hash": "18116309241592990617",
+      "startTime": "2025-10-24T05:54:28.591Z",
+      "endTime": "2025-10-24T05:54:28.812Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "user-service:serve",
+      "target": "serve",
+      "projectName": "user-service",
+      "hash": "6071818114795932652",
+      "startTime": "2025-10-24T05:54:28.614Z",
+      "endTime": "2025-10-24T05:54:28.828Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "call-service:serve",
+      "target": "serve",
+      "projectName": "call-service",
+      "hash": "15209222622831906503",
+      "startTime": "2025-10-24T05:54:28.630Z",
+      "endTime": "2025-10-24T05:54:28.846Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    },
+    {
+      "taskId": "notification-service:serve",
+      "target": "serve",
+      "projectName": "notification-service",
+      "hash": "9530358106899794400",
+      "startTime": "2025-10-24T05:54:28.813Z",
+      "endTime": "2025-10-24T05:54:29.009Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}
