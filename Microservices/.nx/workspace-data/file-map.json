@@ -11,68 +11,144 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".nx/workspace-data/77bf2db5-7649-4ffe-902f-bc71e847dcf4.db-wal",
-        "hash": "13519207168737640116"
+        "file": ".nx/cache/terminalOutputs/3355790351825742722",
+        "hash": "10411324745856257224"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "12388574060130568632"
+        "file": ".nx/cache/terminalOutputs/11811164261503091957",
+        "hash": "11906360723310070685"
       },
       {
-        "file": "nx.json",
-        "hash": "13030115563819192301"
+        "file": ".nx/workspace-data/project-graph.json~44a782aa",
+        "hash": "16806085147229227812"
       },
       {
-        "file": "README.md",
-        "hash": "3434542600625398422"
+        "file": ".nx/workspace-data/d/daemon.log",
+        "hash": "17974013506541858888"
       },
       {
-        "file": "dockerfiles/lead-service.Dockerfile",
-        "hash": "579718393999937242"
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "9536982778185098163"
       },
       {
-        "file": ".nx/workspace-data/project-graph.json",
-        "hash": "5767172702023809882"
+        "file": "package.json",
+        "hash": "3692642924676538284"
+      },
+      {
+        "file": ".nx/cache/run.json",
+        "hash": "6700672928791199521"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/5685925121518111422",
+        "hash": "16167242836990351870"
       },
       {
         "file": ".nx/workspace-data/77bf2db5-7649-4ffe-902f-bc71e847dcf4.db-shm",
-        "hash": "13594416458214461024"
+        "hash": "1330701937368860060"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/4241403961740145834",
+        "hash": "671510390648161595"
       },
       {
         "file": "dockerfiles/user-service.Dockerfile",
         "hash": "6728405105707251566"
       },
       {
-        "file": ".nx/workspace-data/file-map.json",
-        "hash": "5059583528068848420"
+        "file": "dockerfiles/lead-service.Dockerfile",
+        "hash": "579718393999937242"
       },
       {
-        "file": ".nx/workspace-data/source-maps.json",
-        "hash": "6702548224927563199"
+        "file": "tsconfig.base.json",
+        "hash": "12388574060130568632"
       },
       {
-        "file": "dockerfiles/notification-service.Dockerfile",
-        "hash": "14946994244467689686"
+        "file": "README.md",
+        "hash": "3535962451373334928"
       },
       {
-        "file": "dockerfiles/call-service.Dockerfile",
-        "hash": "11602076931377097311"
+        "file": ".nx/cache/terminalOutputs/15882312487461984043",
+        "hash": "15374165086932620548"
       },
       {
-        "file": "dockerfiles/auth-service.Dockerfile",
-        "hash": "5345440055850748884"
+        "file": ".nx/cache/terminalOutputs/11146399826039930153",
+        "hash": "16167242836990351870"
+      },
+      {
+        "file": "nx.json",
+        "hash": "13030115563819192301"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/17651734124128699256",
+        "hash": "671510390648161595"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json~fa426872",
+        "hash": "5956611993886787052"
       },
       {
         "file": "dockerfiles/media-service.Dockerfile",
         "hash": "13807276929654306974"
       },
       {
+        "file": ".nx/cache/terminalOutputs/12230131398497731462",
+        "hash": "11906360723310070685"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/16365298493069663551",
+        "hash": "3083609063114176894"
+      },
+      {
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "8532272574976833107"
+      },
+      {
+        "file": "dockerfiles/call-service.Dockerfile",
+        "hash": "11602076931377097311"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/18079266067213576446",
+        "hash": "703060913878004098"
+      },
+      {
+        "file": "dockerfiles/notification-service.Dockerfile",
+        "hash": "14946994244467689686"
+      },
+      {
         "file": "dockerfiles/Telecaller-service.Dockerfile",
         "hash": "16078322021880071590"
       },
       {
-        "file": "package.json",
-        "hash": "6594486091188970538"
+        "file": ".nx/cache/terminalOutputs/2786581906142438419",
+        "hash": "3083609063114176894"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/5732220393020442169",
+        "hash": "703060913878004098"
+      },
+      {
+        "file": ".nx/workspace-data/77bf2db5-7649-4ffe-902f-bc71e847dcf4.db-wal",
+        "hash": "23673017351732481"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "9768569973506199810"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/9038714774371181081",
+        "hash": "10411324745856257224"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/1840209641782610667",
+        "hash": "15374165086932620548"
+      },
+      {
+        "file": ".nx/workspace-data/77bf2db5-7649-4ffe-902f-bc71e847dcf4.db",
+        "hash": "6240709564311096908"
+      },
+      {
+        "file": "dockerfiles/auth-service.Dockerfile",
+        "hash": "5345440055850748884"
       }
     ],
     "projectFileMap": {
@@ -99,7 +175,7 @@
         },
         {
           "file": "call-service/project.json",
-          "hash": "1917313817558133925"
+          "hash": "16151755143485647721"
         },
         {
           "file": "call-service/src/app.controller.spec.ts",
@@ -142,166 +218,6 @@
           "hash": "12951939466369744494"
         }
       ],
-      "notification-service": [
-        {
-          "file": "notification-service/.gitignore",
-          "hash": "547753584460066287"
-        },
-        {
-          "file": "notification-service/.prettierrc",
-          "hash": "5008776440579340246"
-        },
-        {
-          "file": "notification-service/README.md",
-          "hash": "13123434361241207768"
-        },
-        {
-          "file": "notification-service/nest-cli.json",
-          "hash": "18272654682417215031"
-        },
-        {
-          "file": "notification-service/package.json",
-          "hash": "10369959919414070953"
-        },
-        {
-          "file": "notification-service/project.json",
-          "hash": "14011660350163870975"
-        },
-        {
-          "file": "notification-service/src/app.controller.spec.ts",
-          "hash": "3407876829745233448"
-        },
-        {
-          "file": "notification-service/src/app.controller.ts",
-          "hash": "1345450293891055440"
-        },
-        {
-          "file": "notification-service/src/app.module.ts",
-          "hash": "8819354649274936950"
-        },
-        {
-          "file": "notification-service/src/app.service.ts",
-          "hash": "11198054706582767923"
-        },
-        {
-          "file": "notification-service/src/health.controller.ts",
-          "hash": "11249630768806002604"
-        },
-        {
-          "file": "notification-service/src/main.ts",
-          "hash": "16029125445296268357"
-        },
-        {
-          "file": "notification-service/test/app.e2e-spec.ts",
-          "hash": "158522780483466152"
-        },
-        {
-          "file": "notification-service/test/jest-e2e.json",
-          "hash": "10645908491471703423"
-        },
-        {
-          "file": "notification-service/tsconfig.build.json",
-          "hash": "9666801268768259513"
-        },
-        {
-          "file": "notification-service/tsconfig.json",
-          "hash": "12951939466369744494"
-        }
-      ],
-      "telecaller-service": [
-        {
-          "file": "Telecaller-service/.gitignore",
-          "hash": "547753584460066287"
-        },
-        {
-          "file": "Telecaller-service/.prettierrc",
-          "hash": "5008776440579340246"
-        },
-        {
-          "file": "Telecaller-service/README.md",
-          "hash": "13123434361241207768"
-        },
-        {
-          "file": "Telecaller-service/nest-cli.json",
-          "hash": "18272654682417215031"
-        },
-        {
-          "file": "Telecaller-service/package.json",
-          "hash": "12123574586223925446"
-        },
-        {
-          "file": "Telecaller-service/project.json",
-          "hash": "6889672439134612503"
-        },
-        {
-          "file": "Telecaller-service/src/app.module.ts",
-          "hash": "5668893088441147060"
-        },
-        {
-          "file": "Telecaller-service/src/auth/Role.guard.ts",
-          "hash": "14681928395282440353"
-        },
-        {
-          "file": "Telecaller-service/src/auth/admin-role.guard.ts",
-          "hash": "17876322428214695285"
-        },
-        {
-          "file": "Telecaller-service/src/auth/auth.client.ts",
-          "hash": "17951972486695300015"
-        },
-        {
-          "file": "Telecaller-service/src/auth/jwt.guard.ts",
-          "hash": "17710546845439336418"
-        },
-        {
-          "file": "Telecaller-service/src/health.controller.ts",
-          "hash": "11249630768806002604"
-        },
-        {
-          "file": "Telecaller-service/src/main.ts",
-          "hash": "18015052461313677046"
-        },
-        {
-          "file": "Telecaller-service/src/telecaller/DTO/telecaller.dto.ts",
-          "hash": "13982085712798531275"
-        },
-        {
-          "file": "Telecaller-service/src/telecaller/schema/telecaller.schema.ts",
-          "hash": "16775053230001542108"
-        },
-        {
-          "file": "Telecaller-service/src/telecaller/telecaller.controller.ts",
-          "hash": "10606081991602646804"
-        },
-        {
-          "file": "Telecaller-service/src/telecaller/telecaller.microservice.controller.ts",
-          "hash": "1957527991544530868"
-        },
-        {
-          "file": "Telecaller-service/src/telecaller/telecaller.module.ts",
-          "hash": "1863611117726050378"
-        },
-        {
-          "file": "Telecaller-service/src/telecaller/telecaller.service.ts",
-          "hash": "16325734472213322410"
-        },
-        {
-          "file": "Telecaller-service/test/app.e2e-spec.ts",
-          "hash": "158522780483466152"
-        },
-        {
-          "file": "Telecaller-service/test/jest-e2e.json",
-          "hash": "10645908491471703423"
-        },
-        {
-          "file": "Telecaller-service/tsconfig.build.json",
-          "hash": "9666801268768259513"
-        },
-        {
-          "file": "Telecaller-service/tsconfig.json",
-          "hash": "12818779703528277843"
-        }
-      ],
       "lead-service": [
         {
           "file": "lead-service/.gitignore",
@@ -325,7 +241,7 @@
         },
         {
           "file": "lead-service/project.json",
-          "hash": "11205589411905362134"
+          "hash": "228920476939920079"
         },
         {
           "file": "lead-service/src/app.module.ts",
@@ -392,6 +308,100 @@
           "hash": "12818779703528277843"
         }
       ],
+      "user-service": [
+        {
+          "file": "user-service/.gitignore",
+          "hash": "547753584460066287"
+        },
+        {
+          "file": "user-service/.prettierrc",
+          "hash": "5008776440579340246"
+        },
+        {
+          "file": "user-service/README.md",
+          "hash": "13123434361241207768"
+        },
+        {
+          "file": "user-service/nest-cli.json",
+          "hash": "18272654682417215031"
+        },
+        {
+          "file": "user-service/package.json",
+          "hash": "588566846791259300"
+        },
+        {
+          "file": "user-service/project.json",
+          "hash": "17522351932152215834"
+        },
+        {
+          "file": "user-service/src/app.controller.ts",
+          "hash": "1345450293891055440"
+        },
+        {
+          "file": "user-service/src/app.module.ts",
+          "hash": "4310022864329830031"
+        },
+        {
+          "file": "user-service/src/app.service.ts",
+          "hash": "15124091016077323300"
+        },
+        {
+          "file": "user-service/src/auth/admin-role.guard.ts",
+          "hash": "16343334456701681352"
+        },
+        {
+          "file": "user-service/src/auth/auth.client.ts",
+          "hash": "2980643968848806111"
+        },
+        {
+          "file": "user-service/src/auth/jwt.guard.ts",
+          "hash": "11162370057034581678"
+        },
+        {
+          "file": "user-service/src/health.controller.ts",
+          "hash": "11249630768806002604"
+        },
+        {
+          "file": "user-service/src/main.ts",
+          "hash": "18084303530991453009"
+        },
+        {
+          "file": "user-service/src/organization/organization.controller.ts",
+          "hash": "7775041659221247141"
+        },
+        {
+          "file": "user-service/src/organization/organization.module.ts",
+          "hash": "3023950210735217946"
+        },
+        {
+          "file": "user-service/src/organization/organization.schema.ts",
+          "hash": "8487378339794201763"
+        },
+        {
+          "file": "user-service/src/organization/organization.service.ts",
+          "hash": "716573990126618558"
+        },
+        {
+          "file": "user-service/src/telecaller/telecaller.client.ts",
+          "hash": "12816502422454608055"
+        },
+        {
+          "file": "user-service/test/app.e2e-spec.ts",
+          "hash": "158522780483466152"
+        },
+        {
+          "file": "user-service/test/jest-e2e.json",
+          "hash": "10645908491471703423"
+        },
+        {
+          "file": "user-service/tsconfig.build.json",
+          "hash": "9666801268768259513"
+        },
+        {
+          "file": "user-service/tsconfig.json",
+          "hash": "12951939466369744494"
+        }
+      ],
       "media-service": [
         {
           "file": "media-service/.gitignore",
@@ -415,7 +425,7 @@
         },
         {
           "file": "media-service/project.json",
-          "hash": "5281261467731961607"
+          "hash": "1253652999457924616"
         },
         {
           "file": "media-service/src/app.controller.spec.ts",
@@ -550,6 +560,166 @@
           "hash": "1100955641875385497"
         }
       ],
+      "notification-service": [
+        {
+          "file": "notification-service/.gitignore",
+          "hash": "547753584460066287"
+        },
+        {
+          "file": "notification-service/.prettierrc",
+          "hash": "5008776440579340246"
+        },
+        {
+          "file": "notification-service/README.md",
+          "hash": "13123434361241207768"
+        },
+        {
+          "file": "notification-service/nest-cli.json",
+          "hash": "18272654682417215031"
+        },
+        {
+          "file": "notification-service/package.json",
+          "hash": "10369959919414070953"
+        },
+        {
+          "file": "notification-service/project.json",
+          "hash": "13466135562741403581"
+        },
+        {
+          "file": "notification-service/src/app.controller.spec.ts",
+          "hash": "3407876829745233448"
+        },
+        {
+          "file": "notification-service/src/app.controller.ts",
+          "hash": "1345450293891055440"
+        },
+        {
+          "file": "notification-service/src/app.module.ts",
+          "hash": "8819354649274936950"
+        },
+        {
+          "file": "notification-service/src/app.service.ts",
+          "hash": "11198054706582767923"
+        },
+        {
+          "file": "notification-service/src/health.controller.ts",
+          "hash": "11249630768806002604"
+        },
+        {
+          "file": "notification-service/src/main.ts",
+          "hash": "16029125445296268357"
+        },
+        {
+          "file": "notification-service/test/app.e2e-spec.ts",
+          "hash": "158522780483466152"
+        },
+        {
+          "file": "notification-service/test/jest-e2e.json",
+          "hash": "10645908491471703423"
+        },
+        {
+          "file": "notification-service/tsconfig.build.json",
+          "hash": "9666801268768259513"
+        },
+        {
+          "file": "notification-service/tsconfig.json",
+          "hash": "12951939466369744494"
+        }
+      ],
+      "telecaller-service": [
+        {
+          "file": "Telecaller-service/.gitignore",
+          "hash": "547753584460066287"
+        },
+        {
+          "file": "Telecaller-service/.prettierrc",
+          "hash": "5008776440579340246"
+        },
+        {
+          "file": "Telecaller-service/README.md",
+          "hash": "13123434361241207768"
+        },
+        {
+          "file": "Telecaller-service/nest-cli.json",
+          "hash": "18272654682417215031"
+        },
+        {
+          "file": "Telecaller-service/package.json",
+          "hash": "12123574586223925446"
+        },
+        {
+          "file": "Telecaller-service/project.json",
+          "hash": "1302209334615599750"
+        },
+        {
+          "file": "Telecaller-service/src/app.module.ts",
+          "hash": "5668893088441147060"
+        },
+        {
+          "file": "Telecaller-service/src/auth/Role.guard.ts",
+          "hash": "14681928395282440353"
+        },
+        {
+          "file": "Telecaller-service/src/auth/admin-role.guard.ts",
+          "hash": "17876322428214695285"
+        },
+        {
+          "file": "Telecaller-service/src/auth/auth.client.ts",
+          "hash": "17951972486695300015"
+        },
+        {
+          "file": "Telecaller-service/src/auth/jwt.guard.ts",
+          "hash": "17710546845439336418"
+        },
+        {
+          "file": "Telecaller-service/src/health.controller.ts",
+          "hash": "11249630768806002604"
+        },
+        {
+          "file": "Telecaller-service/src/main.ts",
+          "hash": "18015052461313677046"
+        },
+        {
+          "file": "Telecaller-service/src/telecaller/DTO/telecaller.dto.ts",
+          "hash": "13982085712798531275"
+        },
+        {
+          "file": "Telecaller-service/src/telecaller/schema/telecaller.schema.ts",
+          "hash": "16775053230001542108"
+        },
+        {
+          "file": "Telecaller-service/src/telecaller/telecaller.controller.ts",
+          "hash": "10606081991602646804"
+        },
+        {
+          "file": "Telecaller-service/src/telecaller/telecaller.microservice.controller.ts",
+          "hash": "1957527991544530868"
+        },
+        {
+          "file": "Telecaller-service/src/telecaller/telecaller.module.ts",
+          "hash": "1863611117726050378"
+        },
+        {
+          "file": "Telecaller-service/src/telecaller/telecaller.service.ts",
+          "hash": "16325734472213322410"
+        },
+        {
+          "file": "Telecaller-service/test/app.e2e-spec.ts",
+          "hash": "158522780483466152"
+        },
+        {
+          "file": "Telecaller-service/test/jest-e2e.json",
+          "hash": "10645908491471703423"
+        },
+        {
+          "file": "Telecaller-service/tsconfig.build.json",
+          "hash": "9666801268768259513"
+        },
+        {
+          "file": "Telecaller-service/tsconfig.json",
+          "hash": "12818779703528277843"
+        }
+      ],
       "auth-service": [
         {
           "file": "auth-service/.gitignore",
@@ -577,7 +747,7 @@
         },
         {
           "file": "auth-service/project.json",
-          "hash": "2926736398781769389"
+          "hash": "15768725108935962013"
         },
         {
           "file": "auth-service/src/app.controller.ts",
@@ -637,100 +807,6 @@
         },
         {
           "file": "auth-service/tsconfig.json",
-          "hash": "12951939466369744494"
-        }
-      ],
-      "user-service": [
-        {
-          "file": "user-service/.gitignore",
-          "hash": "547753584460066287"
-        },
-        {
-          "file": "user-service/.prettierrc",
-          "hash": "5008776440579340246"
-        },
-        {
-          "file": "user-service/README.md",
-          "hash": "13123434361241207768"
-        },
-        {
-          "file": "user-service/nest-cli.json",
-          "hash": "18272654682417215031"
-        },
-        {
-          "file": "user-service/package.json",
-          "hash": "588566846791259300"
-        },
-        {
-          "file": "user-service/project.json",
-          "hash": "16158667830986087793"
-        },
-        {
-          "file": "user-service/src/app.controller.ts",
-          "hash": "1345450293891055440"
-        },
-        {
-          "file": "user-service/src/app.module.ts",
-          "hash": "4310022864329830031"
-        },
-        {
-          "file": "user-service/src/app.service.ts",
-          "hash": "15124091016077323300"
-        },
-        {
-          "file": "user-service/src/auth/admin-role.guard.ts",
-          "hash": "16343334456701681352"
-        },
-        {
-          "file": "user-service/src/auth/auth.client.ts",
-          "hash": "2980643968848806111"
-        },
-        {
-          "file": "user-service/src/auth/jwt.guard.ts",
-          "hash": "11162370057034581678"
-        },
-        {
-          "file": "user-service/src/health.controller.ts",
-          "hash": "11249630768806002604"
-        },
-        {
-          "file": "user-service/src/main.ts",
-          "hash": "18084303530991453009"
-        },
-        {
-          "file": "user-service/src/organization/organization.controller.ts",
-          "hash": "7775041659221247141"
-        },
-        {
-          "file": "user-service/src/organization/organization.module.ts",
-          "hash": "3023950210735217946"
-        },
-        {
-          "file": "user-service/src/organization/organization.schema.ts",
-          "hash": "8487378339794201763"
-        },
-        {
-          "file": "user-service/src/organization/organization.service.ts",
-          "hash": "716573990126618558"
-        },
-        {
-          "file": "user-service/src/telecaller/telecaller.client.ts",
-          "hash": "12816502422454608055"
-        },
-        {
-          "file": "user-service/test/app.e2e-spec.ts",
-          "hash": "158522780483466152"
-        },
-        {
-          "file": "user-service/test/jest-e2e.json",
-          "hash": "10645908491471703423"
-        },
-        {
-          "file": "user-service/tsconfig.build.json",
-          "hash": "9666801268768259513"
-        },
-        {
-          "file": "user-service/tsconfig.json",
           "hash": "12951939466369744494"
         }
       ]

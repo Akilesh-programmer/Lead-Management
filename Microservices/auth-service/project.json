@@ -8,7 +8,17 @@
       "executor": "nx:run-commands",
       "options": {
         "cwd": "auth-service",
-        "command": "npm run start:dev"
+        "command": "npm run start:dev",
+        "color": true
+      }
+    },
+    "start:prod": {
+      "executor": "nx:run-commands",
+      "dependsOn": ["build"],
+      "options": {
+        "cwd": "auth-service",
+        "command": "node dist/main.js",
+        "color": true
       }
     },
     "build": {

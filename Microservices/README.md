@@ -29,13 +29,32 @@ npm run start:auth
 
 ## 🛠️ Available Commands
 
-### Start Services
+### Development Mode (Hot-Reload)
 
 ```bash
-# All services in parallel
-npm run start:all
+# All services in parallel with hot-reload
+npm run dev
 
-# Individual services
+# Individual services in dev mode
+npm run dev:auth
+npm run dev:user
+npm run dev:lead
+npm run dev:call
+npm run dev:media
+npm run dev:notification
+npm run dev:telecaller
+```
+
+### Production Mode (Optimized)
+
+```bash
+# Build all services first
+npm run build:all
+
+# Start all services in production (runs dist/main.js)
+npm start
+
+# Individual services in production mode
 npm run start:auth
 npm run start:user
 npm run start:lead

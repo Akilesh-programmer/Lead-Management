@@ -103,10 +103,23 @@ All 7 microservices are managed as an **Nx monorepo** inside the `Microservices/
 ```bash
 cd Microservices
 
-# Start all services in parallel
-npm run start:all
+# DEVELOPMENT MODE (with hot-reload)
+npm run dev                 # Start all services in dev mode
 
-# Start individual services
+# Individual dev services
+npm run dev:auth            # Port 3001
+npm run dev:user            # Port 3002
+npm run dev:lead            # Port 3003
+npm run dev:call            # Port 3004
+npm run dev:media           # Port 3005
+npm run dev:notification    # Port 3007
+npm run dev:telecaller      # Port 3006
+
+# PRODUCTION MODE (runs from dist/main.js)
+npm run build:all           # Build all services first
+npm start                   # Start all services in production mode
+
+# Individual production services
 npm run start:auth          # Port 3001
 npm run start:user          # Port 3002
 npm run start:lead          # Port 3003
@@ -114,9 +127,6 @@ npm run start:call          # Port 3004
 npm run start:media         # Port 3005
 npm run start:notification  # Port 3007
 npm run start:telecaller    # Port 3006
-
-# Build all services
-npm run build:all
 
 # View dependency graph
 npm run graph

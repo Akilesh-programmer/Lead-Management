@@ -15,6 +15,7 @@
               "start",
               "start:dev",
               "start:debug",
+              "start:prod",
               "lint",
               "test:watch",
               "test:cov",
@@ -64,6 +65,18 @@
             "configurations": {},
             "parallelism": true
           },
+          "start:prod": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:prod"
+            },
+            "metadata": {
+              "scriptContent": "node dist/main",
+              "runCommand": "npm run start:prod"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
           "lint": {
             "executor": "nx:run-script",
             "options": {
@@ -116,21 +129,7 @@
             "executor": "nx:run-commands",
             "options": {
               "cwd": "notification-service",
-              "command": "npm run start:dev",
-              "color": true
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "start:prod": {
-            "executor": "nx:run-commands",
-            "dependsOn": [
-              "build"
-            ],
-            "options": {
-              "cwd": "notification-service",
-              "command": "node dist/main.js",
-              "color": true
+              "command": "npm run start:dev"
             },
             "configurations": {},
             "parallelism": true
@@ -178,6 +177,7 @@
               "start",
               "start:dev",
               "start:debug",
+              "start:prod",
               "lint",
               "test:watch",
               "test:cov",
@@ -227,6 +227,18 @@
             "configurations": {},
             "parallelism": true
           },
+          "start:prod": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:prod"
+            },
+            "metadata": {
+              "scriptContent": "node dist/main",
+              "runCommand": "npm run start:prod"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
           "lint": {
             "executor": "nx:run-script",
             "options": {
@@ -279,21 +291,7 @@
             "executor": "nx:run-commands",
             "options": {
               "cwd": "Telecaller-service",
-              "command": "npm run start:dev",
-              "color": true
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "start:prod": {
-            "executor": "nx:run-commands",
-            "dependsOn": [
-              "build"
-            ],
-            "options": {
-              "cwd": "Telecaller-service",
-              "command": "node dist/main.js",
-              "color": true
+              "command": "npm run start:dev"
             },
             "configurations": {},
             "parallelism": true
@@ -341,6 +339,7 @@
               "start",
               "start:dev",
               "start:debug",
+              "start:prod",
               "lint",
               "test:watch",
               "test:cov",
@@ -390,6 +389,18 @@
             "configurations": {},
             "parallelism": true
           },
+          "start:prod": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:prod"
+            },
+            "metadata": {
+              "scriptContent": "node dist/main",
+              "runCommand": "npm run start:prod"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
           "lint": {
             "executor": "nx:run-script",
             "options": {
@@ -442,21 +453,7 @@
             "executor": "nx:run-commands",
             "options": {
               "cwd": "media-service",
-              "command": "npm run start:dev",
-              "color": true
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "start:prod": {
-            "executor": "nx:run-commands",
-            "dependsOn": [
-              "build"
-            ],
-            "options": {
-              "cwd": "media-service",
-              "command": "node dist/main.js",
-              "color": true
+              "command": "npm run start:dev"
             },
             "configurations": {},
             "parallelism": true
@@ -504,6 +501,7 @@
               "start",
               "start:dev",
               "start:debug",
+              "start:prod",
               "lint",
               "test:watch",
               "test:cov",
@@ -553,6 +551,18 @@
             "configurations": {},
             "parallelism": true
           },
+          "start:prod": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:prod"
+            },
+            "metadata": {
+              "scriptContent": "node dist/main",
+              "runCommand": "npm run start:prod"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
           "lint": {
             "executor": "nx:run-script",
             "options": {
@@ -605,21 +615,7 @@
             "executor": "nx:run-commands",
             "options": {
               "cwd": "auth-service",
-              "command": "npm run start:dev",
-              "color": true
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "start:prod": {
-            "executor": "nx:run-commands",
-            "dependsOn": [
-              "build"
-            ],
-            "options": {
-              "cwd": "auth-service",
-              "command": "node dist/main.js",
-              "color": true
+              "command": "npm run start:dev"
             },
             "configurations": {},
             "parallelism": true
@@ -667,6 +663,7 @@
               "start",
               "start:dev",
               "start:debug",
+              "start:prod",
               "lint",
               "test:watch",
               "test:cov",
@@ -716,6 +713,18 @@
             "configurations": {},
             "parallelism": true
           },
+          "start:prod": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:prod"
+            },
+            "metadata": {
+              "scriptContent": "node dist/main",
+              "runCommand": "npm run start:prod"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
           "lint": {
             "executor": "nx:run-script",
             "options": {
@@ -768,21 +777,7 @@
             "executor": "nx:run-commands",
             "options": {
               "cwd": "call-service",
-              "command": "npm run start:dev",
-              "color": true
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "start:prod": {
-            "executor": "nx:run-commands",
-            "dependsOn": [
-              "build"
-            ],
-            "options": {
-              "cwd": "call-service",
-              "command": "node dist/main.js",
-              "color": true
+              "command": "npm run start:dev"
             },
             "configurations": {},
             "parallelism": true
@@ -830,6 +825,7 @@
               "start",
               "start:dev",
               "start:debug",
+              "start:prod",
               "lint",
               "test:watch",
               "test:cov",
@@ -879,6 +875,18 @@
             "configurations": {},
             "parallelism": true
           },
+          "start:prod": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:prod"
+            },
+            "metadata": {
+              "scriptContent": "node dist/main",
+              "runCommand": "npm run start:prod"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
           "lint": {
             "executor": "nx:run-script",
             "options": {
@@ -931,21 +939,7 @@
             "executor": "nx:run-commands",
             "options": {
               "cwd": "lead-service",
-              "command": "npm run start:dev",
-              "color": true
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "start:prod": {
-            "executor": "nx:run-commands",
-            "dependsOn": [
-              "build"
-            ],
-            "options": {
-              "cwd": "lead-service",
-              "command": "node dist/main.js",
-              "color": true
+              "command": "npm run start:dev"
             },
             "configurations": {},
             "parallelism": true
@@ -993,6 +987,7 @@
               "start",
               "start:dev",
               "start:debug",
+              "start:prod",
               "lint",
               "test:watch",
               "test:cov",
@@ -1042,6 +1037,18 @@
             "configurations": {},
             "parallelism": true
           },
+          "start:prod": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:prod"
+            },
+            "metadata": {
+              "scriptContent": "node dist/main",
+              "runCommand": "npm run start:prod"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
           "lint": {
             "executor": "nx:run-script",
             "options": {
@@ -1094,21 +1101,7 @@
             "executor": "nx:run-commands",
             "options": {
               "cwd": "user-service",
-              "command": "npm run start:dev",
-              "color": true
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "start:prod": {
-            "executor": "nx:run-commands",
-            "dependsOn": [
-              "build"
-            ],
-            "options": {
-              "cwd": "user-service",
-              "command": "node dist/main.js",
-              "color": true
+              "command": "npm run start:dev"
             },
             "configurations": {},
             "parallelism": true
@@ -1154,5 +1147,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1761288683956
+  "computedAt": 1761288167448
 }

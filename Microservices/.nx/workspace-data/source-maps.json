@@ -52,10 +52,6 @@
       "Telecaller-service/package.json",
       "nx/core/package-json"
     ],
-    "metadata.targetGroups.NPM Scripts.7": [
-      "Telecaller-service/package.json",
-      "nx/core/package-json"
-    ],
     "metadata.description": [
       "Telecaller-service/package.json",
       "nx/core/package-json"
@@ -157,34 +153,6 @@
       "nx/core/package-json"
     ],
     "targets.start:debug.metadata.runCommand": [
-      "Telecaller-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod": [
-      "Telecaller-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.executor": [
-      "Telecaller-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.options": [
-      "Telecaller-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata": [
-      "Telecaller-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.options.script": [
-      "Telecaller-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata.scriptContent": [
-      "Telecaller-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata.runCommand": [
       "Telecaller-service/package.json",
       "nx/core/package-json"
     ],
@@ -329,6 +297,38 @@
       "nx/core/project-json"
     ],
     "targets.serve.options.command": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.color": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.executor": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.dependsOn": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.cwd": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.command": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.color": [
       "Telecaller-service/project.json",
       "nx/core/project-json"
     ],
@@ -430,10 +430,6 @@
       "auth-service/package.json",
       "nx/core/package-json"
     ],
-    "metadata.targetGroups.NPM Scripts.7": [
-      "auth-service/package.json",
-      "nx/core/package-json"
-    ],
     "metadata.description": [
       "auth-service/package.json",
       "nx/core/package-json"
@@ -535,34 +531,6 @@
       "nx/core/package-json"
     ],
     "targets.start:debug.metadata.runCommand": [
-      "auth-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod": [
-      "auth-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.executor": [
-      "auth-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.options": [
-      "auth-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata": [
-      "auth-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.options.script": [
-      "auth-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata.scriptContent": [
-      "auth-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata.runCommand": [
       "auth-service/package.json",
       "nx/core/package-json"
     ],
@@ -707,6 +675,38 @@
       "nx/core/project-json"
     ],
     "targets.serve.options.command": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.color": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.executor": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.dependsOn": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.cwd": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.command": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.color": [
       "auth-service/project.json",
       "nx/core/project-json"
     ],
@@ -808,10 +808,6 @@
       "call-service/package.json",
       "nx/core/package-json"
     ],
-    "metadata.targetGroups.NPM Scripts.7": [
-      "call-service/package.json",
-      "nx/core/package-json"
-    ],
     "metadata.description": [
       "call-service/package.json",
       "nx/core/package-json"
@@ -913,34 +909,6 @@
       "nx/core/package-json"
     ],
     "targets.start:debug.metadata.runCommand": [
-      "call-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod": [
-      "call-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.executor": [
-      "call-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.options": [
-      "call-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata": [
-      "call-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.options.script": [
-      "call-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata.scriptContent": [
-      "call-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata.runCommand": [
       "call-service/package.json",
       "nx/core/package-json"
     ],
@@ -1085,6 +1053,38 @@
       "nx/core/project-json"
     ],
     "targets.serve.options.command": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.color": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.executor": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.dependsOn": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.cwd": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.command": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.color": [
       "call-service/project.json",
       "nx/core/project-json"
     ],
@@ -1186,10 +1186,6 @@
       "lead-service/package.json",
       "nx/core/package-json"
     ],
-    "metadata.targetGroups.NPM Scripts.7": [
-      "lead-service/package.json",
-      "nx/core/package-json"
-    ],
     "metadata.description": [
       "lead-service/package.json",
       "nx/core/package-json"
@@ -1291,34 +1287,6 @@
       "nx/core/package-json"
     ],
     "targets.start:debug.metadata.runCommand": [
-      "lead-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod": [
-      "lead-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.executor": [
-      "lead-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.options": [
-      "lead-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata": [
-      "lead-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.options.script": [
-      "lead-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata.scriptContent": [
-      "lead-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata.runCommand": [
       "lead-service/package.json",
       "nx/core/package-json"
     ],
@@ -1463,6 +1431,38 @@
       "nx/core/project-json"
     ],
     "targets.serve.options.command": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.color": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.executor": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.dependsOn": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.cwd": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.command": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.color": [
       "lead-service/project.json",
       "nx/core/project-json"
     ],
@@ -1564,10 +1564,6 @@
       "media-service/package.json",
       "nx/core/package-json"
     ],
-    "metadata.targetGroups.NPM Scripts.7": [
-      "media-service/package.json",
-      "nx/core/package-json"
-    ],
     "metadata.description": [
       "media-service/package.json",
       "nx/core/package-json"
@@ -1669,34 +1665,6 @@
       "nx/core/package-json"
     ],
     "targets.start:debug.metadata.runCommand": [
-      "media-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod": [
-      "media-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.executor": [
-      "media-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.options": [
-      "media-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata": [
-      "media-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.options.script": [
-      "media-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata.scriptContent": [
-      "media-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata.runCommand": [
       "media-service/package.json",
       "nx/core/package-json"
     ],
@@ -1841,6 +1809,38 @@
       "nx/core/project-json"
     ],
     "targets.serve.options.command": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.color": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.executor": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.dependsOn": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.cwd": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.command": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.color": [
       "media-service/project.json",
       "nx/core/project-json"
     ],
@@ -1942,10 +1942,6 @@
       "notification-service/package.json",
       "nx/core/package-json"
     ],
-    "metadata.targetGroups.NPM Scripts.7": [
-      "notification-service/package.json",
-      "nx/core/package-json"
-    ],
     "metadata.description": [
       "notification-service/package.json",
       "nx/core/package-json"
@@ -2047,34 +2043,6 @@
       "nx/core/package-json"
     ],
     "targets.start:debug.metadata.runCommand": [
-      "notification-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod": [
-      "notification-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.executor": [
-      "notification-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.options": [
-      "notification-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata": [
-      "notification-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.options.script": [
-      "notification-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata.scriptContent": [
-      "notification-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata.runCommand": [
       "notification-service/package.json",
       "nx/core/package-json"
     ],
@@ -2219,6 +2187,38 @@
       "nx/core/project-json"
     ],
     "targets.serve.options.command": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.color": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.executor": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.dependsOn": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.cwd": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.command": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.color": [
       "notification-service/project.json",
       "nx/core/project-json"
     ],
@@ -2320,10 +2320,6 @@
       "user-service/package.json",
       "nx/core/package-json"
     ],
-    "metadata.targetGroups.NPM Scripts.7": [
-      "user-service/package.json",
-      "nx/core/package-json"
-    ],
     "metadata.description": [
       "user-service/package.json",
       "nx/core/package-json"
@@ -2425,34 +2421,6 @@
       "nx/core/package-json"
     ],
     "targets.start:debug.metadata.runCommand": [
-      "user-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod": [
-      "user-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.executor": [
-      "user-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.options": [
-      "user-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata": [
-      "user-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.options.script": [
-      "user-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata.scriptContent": [
-      "user-service/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start:prod.metadata.runCommand": [
       "user-service/package.json",
       "nx/core/package-json"
     ],
@@ -2597,6 +2565,38 @@
       "nx/core/project-json"
     ],
     "targets.serve.options.command": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.color": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.executor": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.dependsOn": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.cwd": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.command": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start:prod.options.color": [
       "user-service/project.json",
       "nx/core/project-json"
     ],
