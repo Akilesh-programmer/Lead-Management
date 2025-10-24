@@ -1,13 +1,13 @@
 {
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
   "name": "notification-service",
   "projectType": "application",
-  "sourceRoot": "Microservices/notification-service/src",
+  "sourceRoot": "notification-service/src",
   "targets": {
     "serve": {
       "executor": "nx:run-commands",
       "options": {
-        "cwd": "Microservices/notification-service",
+        "cwd": "notification-service",
         "command": "npm run start:dev"
       }
     },
@@ -15,14 +15,14 @@
       "executor": "nx:run-commands",
       "outputs": ["{projectRoot}/dist"],
       "options": {
-        "cwd": "Microservices/notification-service",
+        "cwd": "notification-service",
         "command": "npm run build"
       }
     },
     "test": {
       "executor": "nx:run-commands",
       "options": {
-        "cwd": "Microservices/notification-service",
+        "cwd": "notification-service",
         "command": "npm run test"
       }
     }
