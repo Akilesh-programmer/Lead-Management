@@ -1,0 +1,660 @@
+{
+  "Telecaller-service": {
+    "root": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.cwd": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "Telecaller-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "auth-service": {
+    "root": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.cwd": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "auth-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "call-service": {
+    "root": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.cwd": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "call-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "lead-service": {
+    "root": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.cwd": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "lead-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "media-service": {
+    "root": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.cwd": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "media-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "notification-service": {
+    "root": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.cwd": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "notification-service/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "user-service": {
+    "root": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.cwd": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "user-service/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}

@@ -145,3 +145,173 @@
 [NX v20.8.2 Daemon Server] - 2025-10-24T05:36:17.258Z - [SYNC]: project graph hash is the same, not collecting task sync generators
 [NX v20.8.2 Daemon Server] - 2025-10-24T05:36:17.258Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
 [NX v20.8.2 Daemon Server] - 2025-10-24T05:36:17.258Z - Time taken for 'total execution time for createProjectGraph()' 3.336699999985285ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:14.962Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:14.964Z - [WATCHER]: Microservices/package.json was modified
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:21.367Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:21.367Z - [REQUEST]: Microservices/package.json
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:21.367Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:21.377Z - Time taken for 'hash changed files from watcher' 0.29240000003483146ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:21.394Z - Time taken for 'build-project-configs' 17.6300999999512ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:21.403Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:21.404Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:21.404Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:21.405Z - Time taken for 'total execution time for createProjectGraph()' 5.4249999999883585ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:41.339Z - [WATCHER]: Microservices/call-service/project.json was modified
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:41.340Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:47.746Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:47.746Z - [REQUEST]: Microservices/call-service/project.json
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:47.746Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:47.749Z - Time taken for 'hash changed files from watcher' 0.2658999999985099ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:47.758Z - Time taken for 'build-project-configs' 8.927300000039395ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:47.765Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:47.766Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:37:47.766Z - Time taken for 'total execution time for createProjectGraph()' 2.9768000000040047ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:11.718Z - [WATCHER]: Microservices/media-service/project.json was modified
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:11.718Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:18.124Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:18.124Z - [REQUEST]: Microservices/media-service/project.json
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:18.124Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:18.128Z - Time taken for 'hash changed files from watcher' 0.310799999977462ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:18.136Z - Time taken for 'build-project-configs' 8.773699999961536ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:18.144Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:18.145Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:18.145Z - Time taken for 'total execution time for createProjectGraph()' 2.508399999991525ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:35.077Z - [WATCHER]: Microservices/notification-service/project.json was modified
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:35.090Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:41.479Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:41.479Z - [REQUEST]: Microservices/notification-service/project.json
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:41.479Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:41.485Z - Time taken for 'hash changed files from watcher' 1.1224999999976717ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:41.506Z - Time taken for 'build-project-configs' 18.717199999955483ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:41.517Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:41.518Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:41.518Z - Time taken for 'total execution time for createProjectGraph()' 4.52980000001844ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:57.218Z - [WATCHER]: Microservices/Telecaller-service/project.json was modified
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:38:57.219Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:39:03.621Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:39:03.622Z - [REQUEST]: Microservices/Telecaller-service/project.json
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:39:03.622Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:39:03.625Z - Time taken for 'hash changed files from watcher' 0.35929999995278195ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:39:03.634Z - Time taken for 'build-project-configs' 8.878499999991618ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:39:03.640Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:39:03.641Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:39:03.641Z - Time taken for 'total execution time for createProjectGraph()' 2.2483000000356697ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:00.174Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:00.175Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:00.241Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:00.242Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:00.325Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:00.326Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:00.385Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:00.388Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:00.473Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:00.473Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:06.591Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:06.591Z - [REQUEST]: Microservices/auth-service/project.json,Microservices/user-service/project.json,Microservices/lead-service/project.json,Microservices/nx.json,Microservices/package.json,Microservices/tsconfig.base.json,Microservices/media-service/project.json,Microservices/call-service/project.json,Microservices/notification-service/project.json,Microservices/Telecaller-service/project.json
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:06.591Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:06.595Z - Time taken for 'hash changed files from watcher' 0.8169999999227002ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:06.606Z - Time taken for 'build-project-configs' 11.181800000020303ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:06.614Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:06.614Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:06.614Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:06.614Z - Time taken for 'total execution time for createProjectGraph()' 3.3377000000327826ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:38.013Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:42:11.692Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:42:11.749Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:42:11.800Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:40.438Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:40.490Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:40.497Z - [WATCHER]: Microservices/auth-service/package.json was deleted
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:46.905Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:46.905Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:46.905Z - [REQUEST]: Microservices/auth-service/package.json
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:46.919Z - Time taken for 'hash changed files from watcher' 0.8327000000281259ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:46.946Z - Time taken for 'build-project-configs' 25.664400000008754ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:46.967Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:46.969Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:46.970Z - Time taken for 'total execution time for createProjectGraph()' 10.785499999998137ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:49.162Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:49.218Z - [WATCHER]: Microservices/call-service/package.json was deleted
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:55.011Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:55.040Z - [WATCHER]: Microservices/lead-service/package.json was deleted
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:55.627Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:55.627Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:55.627Z - [REQUEST]: Microservices/call-service/package.json,Microservices/lead-service/package.json
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:55.638Z - Time taken for 'hash changed files from watcher' 0.8660000000381842ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:55.654Z - Time taken for 'build-project-configs' 10.325899999937974ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:55.673Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:55.675Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:43:55.675Z - Time taken for 'total execution time for createProjectGraph()' 9.61069999996107ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:00.567Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:00.923Z - [WATCHER]: Microservices/media-service/package.json was deleted
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:00.923Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:07.333Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:07.334Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:07.334Z - [REQUEST]: Microservices/media-service/package.json
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:07.348Z - Time taken for 'hash changed files from watcher' 0.5450999999884516ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:07.364Z - Time taken for 'build-project-configs' 14.881799999973737ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:07.390Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:07.392Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:07.392Z - Time taken for 'total execution time for createProjectGraph()' 14.378900000010617ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:08.684Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:08.718Z - [WATCHER]: Microservices/notification-service/project.json was deleted
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:10.862Z - [WATCHER]: Microservices/notification-service/project.json was modified
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:10.862Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:13.738Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:14.040Z - [WATCHER]: Microservices/lead-service/package.json was modified
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:14.040Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:15.125Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:15.126Z - [REQUEST]: Microservices/notification-service/project.json,Microservices/lead-service/package.json
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:15.126Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:15.143Z - Time taken for 'hash changed files from watcher' 1.3575999999884516ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:15.173Z - Time taken for 'build-project-configs' 20.12300000002142ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:15.212Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:15.214Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:15.214Z - Time taken for 'total execution time for createProjectGraph()' 35.29399999999441ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:21.556Z - [WATCHER]: Microservices/notification-service/package.json was deleted
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:21.557Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:27.970Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:27.970Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:27.971Z - [REQUEST]: Microservices/notification-service/package.json
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:27.983Z - Time taken for 'hash changed files from watcher' 0.8506000000052154ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:28.005Z - Time taken for 'build-project-configs' 18.48410000000149ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:28.026Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:28.028Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:28.029Z - Time taken for 'total execution time for createProjectGraph()' 13.06649999995716ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:29.119Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:29.165Z - [WATCHER]: Microservices/Telecaller-service/package.json was deleted
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:34.590Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:34.622Z - [WATCHER]: Microservices/user-service/package.json was deleted
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:35.570Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:35.570Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:35.570Z - [REQUEST]: Microservices/Telecaller-service/package.json,Microservices/user-service/package.json
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:35.580Z - Time taken for 'hash changed files from watcher' 0.850099999923259ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:35.604Z - Time taken for 'build-project-configs' 17.04779999994207ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:35.622Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:35.623Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:35.623Z - Time taken for 'total execution time for createProjectGraph()' 13.13820000004489ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:51.645Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:51.697Z - [WATCHER]: Microservices/lead-service/package.json was deleted
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:58.112Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:58.112Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:58.112Z - [REQUEST]: Microservices/lead-service/package.json
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:58.121Z - Time taken for 'hash changed files from watcher' 0.7541000000201166ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:58.138Z - Time taken for 'build-project-configs' 11.147400000016205ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:58.155Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:58.157Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:44:58.158Z - Time taken for 'total execution time for createProjectGraph()' 9.929799999925308ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:45:00.400Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:45:00.751Z - [WATCHER]: Microservices/media-service/package.json was deleted
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:45:00.751Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:45:07.153Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:45:07.154Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:45:07.154Z - [REQUEST]: Microservices/media-service/package.json
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:45:07.175Z - Time taken for 'hash changed files from watcher' 0.6933000000426546ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:45:07.204Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:45:07.206Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:45:07.207Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:45:07.207Z - Time taken for 'total execution time for createProjectGraph()' 8.497699999948964ms
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:45:42.970Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:45:42.972Z - [WATCHER]: Stopping the watcher for C:\Projects\Lead-Management (sources)
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:45:42.976Z - [WATCHER]: Stopping the watcher for C:\Projects\Lead-Management (outputs)
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:45:42.991Z - Server stopped because: "NX_VERSION_CHANGED"

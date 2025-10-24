@@ -1,0 +1,12 @@
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:33.505Z - Started listening on: \\.\pipe\nx\C:\Users\SRIPRA~1\AppData\Local\Temp\3334871715cebb061265\d.sock
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:33.510Z - [WATCHER]: Subscribed to changes within: C:\Projects\Lead-Management\Microservices (native)
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:33.512Z - Established a connection. Number of open connections: 1
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:33.513Z - Established a connection. Number of open connections: 2
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:33.514Z - Closed a connection. Number of open connections: 1
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:33.517Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:33.518Z - Done responding to the client Shutdown initiated
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:33.519Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 2.
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:33.519Z - Closed a connection. Number of open connections: 0
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:33.519Z - [WATCHER]: Stopping the watcher for C:\Projects\Lead-Management\Microservices (sources)
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:33.519Z - [WATCHER]: Stopping the watcher for C:\Projects\Lead-Management\Microservices (outputs)
+[NX v20.8.2 Daemon Server] - 2025-10-24T05:41:33.520Z - Server stopped because: "Request to shutdown"
