@@ -11,24 +11,20 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "Microservices/package.json",
-        "hash": "186558837568124979"
+        "file": "Microservices/dockerfiles/user-service.Dockerfile",
+        "hash": "6728405105707251566"
       },
       {
-        "file": "nx.json",
-        "hash": "8581515221470647926"
+        "file": "Microservices/dockerfiles/media-service.Dockerfile",
+        "hash": "13807276929654306974"
       },
       {
-        "file": "Microservices/dockerfiles/lead-service.Dockerfile",
-        "hash": "579718393999937242"
+        "file": "Microservices/tsconfig.base.json",
+        "hash": "12388574060130568632"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "554948837933665346"
-      },
-      {
-        "file": "Microservices/dockerfiles/auth-service.Dockerfile",
-        "hash": "5345440055850748884"
+        "file": "Microservices/dockerfiles/notification-service.Dockerfile",
+        "hash": "14946994244467689686"
       },
       {
         "file": "Microservices/nx.json",
@@ -39,36 +35,40 @@
         "hash": "11602076931377097311"
       },
       {
-        "file": "package.json",
-        "hash": "4278321691426355426"
-      },
-      {
-        "file": "Microservices/tsconfig.base.json",
-        "hash": "12388574060130568632"
-      },
-      {
-        "file": "Microservices/dockerfiles/user-service.Dockerfile",
-        "hash": "6728405105707251566"
-      },
-      {
         "file": ".gitignore",
         "hash": "13892928455553777311"
       },
       {
-        "file": "Microservices/dockerfiles/Telecaller-service.Dockerfile",
-        "hash": "16078322021880071590"
+        "file": "Microservices/package.json",
+        "hash": "5345709989388923211"
       },
       {
-        "file": "Microservices/dockerfiles/media-service.Dockerfile",
-        "hash": "13807276929654306974"
+        "file": "tsconfig.base.json",
+        "hash": "554948837933665346"
+      },
+      {
+        "file": "Microservices/dockerfiles/lead-service.Dockerfile",
+        "hash": "579718393999937242"
+      },
+      {
+        "file": "Microservices/dockerfiles/auth-service.Dockerfile",
+        "hash": "5345440055850748884"
+      },
+      {
+        "file": "nx.json",
+        "hash": "8581515221470647926"
       },
       {
         "file": "README.md",
         "hash": "14450256776715181818"
       },
       {
-        "file": "Microservices/dockerfiles/notification-service.Dockerfile",
-        "hash": "14946994244467689686"
+        "file": "package.json",
+        "hash": "4278321691426355426"
+      },
+      {
+        "file": "Microservices/dockerfiles/Telecaller-service.Dockerfile",
+        "hash": "16078322021880071590"
       }
     ],
     "projectFileMap": {
