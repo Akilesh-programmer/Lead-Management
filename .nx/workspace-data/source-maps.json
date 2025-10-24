@@ -1,0 +1,3330 @@
+{
+  "Microservices/Telecaller-service": {
+    "root": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.9": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.executor": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options.script": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.scriptContent": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.runCommand": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.executor": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options.script": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.scriptContent": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.runCommand": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.executor": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.options": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.options.script": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata.scriptContent": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata.runCommand": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.executor": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.options": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.options.script": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata.scriptContent": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata.runCommand": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.executor": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options.script": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.scriptContent": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.runCommand": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.executor": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.options": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.options.script": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata.scriptContent": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata.runCommand": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.executor": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.options": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.options.script": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata.scriptContent": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata.runCommand": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.executor": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options.script": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.scriptContent": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.runCommand": [
+      "Microservices/Telecaller-service/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.cwd": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "Microservices/Telecaller-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "Microservices/auth-service": {
+    "root": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.9": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.executor": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options.script": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.scriptContent": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.runCommand": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.executor": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options.script": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.scriptContent": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.runCommand": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.executor": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.options": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.options.script": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata.scriptContent": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata.runCommand": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.executor": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.options": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.options.script": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata.scriptContent": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata.runCommand": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.executor": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options.script": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.scriptContent": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.runCommand": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.executor": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.options": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.options.script": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata.scriptContent": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata.runCommand": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.executor": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.options": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.options.script": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata.scriptContent": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata.runCommand": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.executor": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options.script": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.scriptContent": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.runCommand": [
+      "Microservices/auth-service/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.cwd": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "Microservices/auth-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "Microservices/call-service": {
+    "root": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.9": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.executor": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options.script": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.scriptContent": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.runCommand": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.executor": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options.script": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.scriptContent": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.runCommand": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.executor": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.options": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.options.script": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata.scriptContent": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata.runCommand": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.executor": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.options": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.options.script": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata.scriptContent": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata.runCommand": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.executor": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options.script": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.scriptContent": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.runCommand": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.executor": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.options": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.options.script": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata.scriptContent": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata.runCommand": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.executor": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.options": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.options.script": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata.scriptContent": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata.runCommand": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.executor": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options.script": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.scriptContent": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.runCommand": [
+      "Microservices/call-service/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.cwd": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "Microservices/call-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "Microservices/lead-service": {
+    "root": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.9": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.executor": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options.script": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.scriptContent": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.runCommand": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.executor": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options.script": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.scriptContent": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.runCommand": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.executor": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.options": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.options.script": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata.scriptContent": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata.runCommand": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.executor": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.options": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.options.script": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata.scriptContent": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata.runCommand": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.executor": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options.script": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.scriptContent": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.runCommand": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.executor": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.options": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.options.script": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata.scriptContent": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata.runCommand": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.executor": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.options": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.options.script": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata.scriptContent": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata.runCommand": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.executor": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options.script": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.scriptContent": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.runCommand": [
+      "Microservices/lead-service/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.cwd": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "Microservices/lead-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "Microservices/media-service": {
+    "root": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.9": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.executor": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options.script": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.scriptContent": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.runCommand": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.executor": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options.script": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.scriptContent": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.runCommand": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.executor": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.options": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.options.script": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata.scriptContent": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata.runCommand": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.executor": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.options": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.options.script": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata.scriptContent": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata.runCommand": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.executor": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options.script": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.scriptContent": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.runCommand": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.executor": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.options": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.options.script": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata.scriptContent": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata.runCommand": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.executor": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.options": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.options.script": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata.scriptContent": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata.runCommand": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.executor": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options.script": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.scriptContent": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.runCommand": [
+      "Microservices/media-service/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.cwd": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "Microservices/media-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "Microservices/notification-service": {
+    "root": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.9": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.executor": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options.script": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.scriptContent": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.runCommand": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.executor": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options.script": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.scriptContent": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.runCommand": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.executor": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.options": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.options.script": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata.scriptContent": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata.runCommand": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.executor": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.options": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.options.script": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata.scriptContent": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata.runCommand": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.executor": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options.script": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.scriptContent": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.runCommand": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.executor": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.options": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.options.script": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata.scriptContent": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata.runCommand": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.executor": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.options": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.options.script": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata.scriptContent": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata.runCommand": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.executor": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options.script": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.scriptContent": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.runCommand": [
+      "Microservices/notification-service/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.cwd": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "Microservices/notification-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "Microservices/user-service": {
+    "root": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.9": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.executor": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.options.script": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.scriptContent": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.format.metadata.runCommand": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.executor": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.options.script": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.scriptContent": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start.metadata.runCommand": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.executor": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.options": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.options.script": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata.scriptContent": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:dev.metadata.runCommand": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.executor": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.options": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.options.script": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata.scriptContent": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:debug.metadata.runCommand": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.executor": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.options.script": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.scriptContent": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:prod.metadata.runCommand": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.executor": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.options": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.options.script": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata.scriptContent": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:cov.metadata.runCommand": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.executor": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.options": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.options.script": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata.scriptContent": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:debug.metadata.runCommand": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.executor": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.options.script": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.scriptContent": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:e2e.metadata.runCommand": [
+      "Microservices/user-service/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.cwd": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "Microservices/user-service/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "client": {
+    "root": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.executor": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options.script": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.scriptContent": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.runCommand": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.executor": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.options.script": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.scriptContent": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.metadata.runCommand": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.executor": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.options.script": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.scriptContent": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.preview.metadata.runCommand": [
+      "client/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "name": "call-service",
+  "projectType": "application",
+  "sourceRoot": "Microservices/call-service/src",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "Microservices/call-service",
+        "command": "npm run start:dev"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "outputs": ["{projectRoot}/dist"],
+      "options": {
+        "cwd": "Microservices/call-service",
+        "command": "npm run build"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "Microservices/call-service",
+        "command": "npm run test"
+      }
+    }
+  },
+  "tags": []
+}

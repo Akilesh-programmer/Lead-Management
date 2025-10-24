@@ -1,0 +1,29 @@
+{
+  "name": "lead-management",
+  "private": true,
+  "workspaces": [
+    "client",
+    "Microservices/auth-service",
+    "Microservices/user-service",
+    "Microservices/lead-service",
+    "Microservices/call-service",
+    "Microservices/media-service",
+    "Microservices/notification-service",
+    "Microservices/Telecaller-service"
+  ],
+  "scripts": {
+    "nx": "nx",
+    "start:all": "nx run-many -t serve -p auth-service user-service lead-service call-service media-service notification-service telecaller-service --parallel",
+    "build:all": "nx run-many -t build -p auth-service user-service lead-service call-service media-service notification-service telecaller-service --parallel"
+  },
+  "devDependencies": {
+    "nx": "^20.1.1",
+    "@nx/nest": "^20.1.1",
+    "typescript": "^5.7.3",
+    "ts-node": "^10.9.2",
+    "jest": "^30.0.0",
+    "ts-jest": "^29.2.5",
+    "@types/jest": "^30.0.0",
+    "cross-env": "^7.0.3"
+  }
+}

@@ -1,0 +1,1434 @@
+{
+  "nodes": {
+    "notification-service": {
+      "name": "notification-service",
+      "type": "app",
+      "data": {
+        "root": "Microservices/notification-service",
+        "name": "notification-service",
+        "projectType": "application",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "format",
+              "start",
+              "start:dev",
+              "start:debug",
+              "start:prod",
+              "lint",
+              "test:watch",
+              "test:cov",
+              "test:debug",
+              "test:e2e"
+            ]
+          },
+          "description": "",
+          "js": {
+            "packageName": "notification-service",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "format": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "format"
+            },
+            "metadata": {
+              "scriptContent": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+              "runCommand": "npm run format"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start"
+            },
+            "metadata": {
+              "scriptContent": "nest start",
+              "runCommand": "npm run start"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:dev"
+            },
+            "metadata": {
+              "scriptContent": "nest start --watch",
+              "runCommand": "npm run start:dev"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:debug": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:debug"
+            },
+            "metadata": {
+              "scriptContent": "nest start --debug --watch",
+              "runCommand": "npm run start:debug"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:prod": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:prod"
+            },
+            "metadata": {
+              "scriptContent": "node dist/main",
+              "runCommand": "npm run start:prod"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "lint"
+            },
+            "metadata": {
+              "scriptContent": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+              "runCommand": "npm run lint"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:watch": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:watch"
+            },
+            "metadata": {
+              "scriptContent": "jest --watch",
+              "runCommand": "npm run test:watch"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:cov": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:cov"
+            },
+            "metadata": {
+              "scriptContent": "jest --coverage",
+              "runCommand": "npm run test:cov"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:debug": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:debug"
+            },
+            "metadata": {
+              "scriptContent": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+              "runCommand": "npm run test:debug"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:e2e": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:e2e"
+            },
+            "metadata": {
+              "scriptContent": "jest --config ./test/jest-e2e.json",
+              "runCommand": "npm run test:e2e"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "nx:run-commands",
+            "options": {
+              "cwd": "Microservices/notification-service",
+              "command": "npm run start:dev"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "executor": "nx:run-commands",
+            "outputs": [
+              "{projectRoot}/dist"
+            ],
+            "options": {
+              "cwd": "Microservices/notification-service",
+              "command": "npm run build"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "dependsOn": [
+              "^build"
+            ]
+          },
+          "test": {
+            "executor": "nx:run-commands",
+            "options": {
+              "cwd": "Microservices/notification-service",
+              "command": "npm run test"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "Microservices/notification-service/src",
+        "implicitDependencies": []
+      }
+    },
+    "telecaller-service": {
+      "name": "telecaller-service",
+      "type": "app",
+      "data": {
+        "root": "Microservices/Telecaller-service",
+        "name": "telecaller-service",
+        "projectType": "application",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "format",
+              "start",
+              "start:dev",
+              "start:debug",
+              "start:prod",
+              "lint",
+              "test:watch",
+              "test:cov",
+              "test:debug",
+              "test:e2e"
+            ]
+          },
+          "description": "",
+          "js": {
+            "packageName": "telecaller-service",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "format": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "format"
+            },
+            "metadata": {
+              "scriptContent": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+              "runCommand": "npm run format"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start"
+            },
+            "metadata": {
+              "scriptContent": "nest start",
+              "runCommand": "npm run start"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:dev"
+            },
+            "metadata": {
+              "scriptContent": "nest start --watch",
+              "runCommand": "npm run start:dev"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:debug": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:debug"
+            },
+            "metadata": {
+              "scriptContent": "nest start --debug --watch",
+              "runCommand": "npm run start:debug"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:prod": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:prod"
+            },
+            "metadata": {
+              "scriptContent": "node dist/main",
+              "runCommand": "npm run start:prod"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "lint"
+            },
+            "metadata": {
+              "scriptContent": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+              "runCommand": "npm run lint"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:watch": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:watch"
+            },
+            "metadata": {
+              "scriptContent": "jest --watch",
+              "runCommand": "npm run test:watch"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:cov": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:cov"
+            },
+            "metadata": {
+              "scriptContent": "jest --coverage",
+              "runCommand": "npm run test:cov"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:debug": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:debug"
+            },
+            "metadata": {
+              "scriptContent": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+              "runCommand": "npm run test:debug"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:e2e": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:e2e"
+            },
+            "metadata": {
+              "scriptContent": "jest --config ./test/jest-e2e.json",
+              "runCommand": "npm run test:e2e"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "nx:run-commands",
+            "options": {
+              "cwd": "Microservices/Telecaller-service",
+              "command": "npm run start:dev"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "executor": "nx:run-commands",
+            "outputs": [
+              "{projectRoot}/dist"
+            ],
+            "options": {
+              "cwd": "Microservices/Telecaller-service",
+              "command": "npm run build"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "dependsOn": [
+              "^build"
+            ]
+          },
+          "test": {
+            "executor": "nx:run-commands",
+            "options": {
+              "cwd": "Microservices/Telecaller-service",
+              "command": "npm run test"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "Microservices/Telecaller-service/src",
+        "implicitDependencies": []
+      }
+    },
+    "media-service": {
+      "name": "media-service",
+      "type": "app",
+      "data": {
+        "root": "Microservices/media-service",
+        "name": "media-service",
+        "projectType": "application",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "format",
+              "start",
+              "start:dev",
+              "start:debug",
+              "start:prod",
+              "lint",
+              "test:watch",
+              "test:cov",
+              "test:debug",
+              "test:e2e"
+            ]
+          },
+          "description": "",
+          "js": {
+            "packageName": "media-service",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "format": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "format"
+            },
+            "metadata": {
+              "scriptContent": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+              "runCommand": "npm run format"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start"
+            },
+            "metadata": {
+              "scriptContent": "nest start",
+              "runCommand": "npm run start"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:dev"
+            },
+            "metadata": {
+              "scriptContent": "nest start --watch",
+              "runCommand": "npm run start:dev"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:debug": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:debug"
+            },
+            "metadata": {
+              "scriptContent": "nest start --debug --watch",
+              "runCommand": "npm run start:debug"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:prod": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:prod"
+            },
+            "metadata": {
+              "scriptContent": "node dist/main",
+              "runCommand": "npm run start:prod"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "lint"
+            },
+            "metadata": {
+              "scriptContent": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+              "runCommand": "npm run lint"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:watch": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:watch"
+            },
+            "metadata": {
+              "scriptContent": "jest --watch",
+              "runCommand": "npm run test:watch"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:cov": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:cov"
+            },
+            "metadata": {
+              "scriptContent": "jest --coverage",
+              "runCommand": "npm run test:cov"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:debug": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:debug"
+            },
+            "metadata": {
+              "scriptContent": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+              "runCommand": "npm run test:debug"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:e2e": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:e2e"
+            },
+            "metadata": {
+              "scriptContent": "jest --config ./test/jest-e2e.json",
+              "runCommand": "npm run test:e2e"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "nx:run-commands",
+            "options": {
+              "cwd": "Microservices/media-service",
+              "command": "npm run start:dev"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "executor": "nx:run-commands",
+            "outputs": [
+              "{projectRoot}/dist"
+            ],
+            "options": {
+              "cwd": "Microservices/media-service",
+              "command": "npm run build"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "dependsOn": [
+              "^build"
+            ]
+          },
+          "test": {
+            "executor": "nx:run-commands",
+            "options": {
+              "cwd": "Microservices/media-service",
+              "command": "npm run test"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "Microservices/media-service/src",
+        "implicitDependencies": []
+      }
+    },
+    "auth-service": {
+      "name": "auth-service",
+      "type": "app",
+      "data": {
+        "root": "Microservices/auth-service",
+        "name": "auth-service",
+        "projectType": "application",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "format",
+              "start",
+              "start:dev",
+              "start:debug",
+              "start:prod",
+              "lint",
+              "test:watch",
+              "test:cov",
+              "test:debug",
+              "test:e2e"
+            ]
+          },
+          "description": "",
+          "js": {
+            "packageName": "auth-service",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "format": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "format"
+            },
+            "metadata": {
+              "scriptContent": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+              "runCommand": "npm run format"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start"
+            },
+            "metadata": {
+              "scriptContent": "nest start",
+              "runCommand": "npm run start"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:dev"
+            },
+            "metadata": {
+              "scriptContent": "nest start --watch",
+              "runCommand": "npm run start:dev"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:debug": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:debug"
+            },
+            "metadata": {
+              "scriptContent": "nest start --debug --watch",
+              "runCommand": "npm run start:debug"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:prod": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:prod"
+            },
+            "metadata": {
+              "scriptContent": "node dist/main",
+              "runCommand": "npm run start:prod"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "lint"
+            },
+            "metadata": {
+              "scriptContent": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+              "runCommand": "npm run lint"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:watch": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:watch"
+            },
+            "metadata": {
+              "scriptContent": "jest --watch",
+              "runCommand": "npm run test:watch"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:cov": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:cov"
+            },
+            "metadata": {
+              "scriptContent": "jest --coverage",
+              "runCommand": "npm run test:cov"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:debug": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:debug"
+            },
+            "metadata": {
+              "scriptContent": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+              "runCommand": "npm run test:debug"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:e2e": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:e2e"
+            },
+            "metadata": {
+              "scriptContent": "jest --config ./test/jest-e2e.json",
+              "runCommand": "npm run test:e2e"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "nx:run-commands",
+            "options": {
+              "cwd": "auth-service",
+              "command": "npm run start:dev"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "executor": "nx:run-commands",
+            "outputs": [
+              "{projectRoot}/dist"
+            ],
+            "options": {
+              "cwd": "auth-service",
+              "command": "npm run build"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "dependsOn": [
+              "^build"
+            ]
+          },
+          "test": {
+            "executor": "nx:run-commands",
+            "options": {
+              "cwd": "auth-service",
+              "command": "npm run test"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "$schema": "../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "auth-service/src",
+        "implicitDependencies": []
+      }
+    },
+    "call-service": {
+      "name": "call-service",
+      "type": "app",
+      "data": {
+        "root": "Microservices/call-service",
+        "name": "call-service",
+        "projectType": "application",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "format",
+              "start",
+              "start:dev",
+              "start:debug",
+              "start:prod",
+              "lint",
+              "test:watch",
+              "test:cov",
+              "test:debug",
+              "test:e2e"
+            ]
+          },
+          "description": "",
+          "js": {
+            "packageName": "call-service",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "format": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "format"
+            },
+            "metadata": {
+              "scriptContent": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+              "runCommand": "npm run format"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start"
+            },
+            "metadata": {
+              "scriptContent": "nest start",
+              "runCommand": "npm run start"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:dev"
+            },
+            "metadata": {
+              "scriptContent": "nest start --watch",
+              "runCommand": "npm run start:dev"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:debug": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:debug"
+            },
+            "metadata": {
+              "scriptContent": "nest start --debug --watch",
+              "runCommand": "npm run start:debug"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:prod": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:prod"
+            },
+            "metadata": {
+              "scriptContent": "node dist/main",
+              "runCommand": "npm run start:prod"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "lint"
+            },
+            "metadata": {
+              "scriptContent": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+              "runCommand": "npm run lint"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:watch": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:watch"
+            },
+            "metadata": {
+              "scriptContent": "jest --watch",
+              "runCommand": "npm run test:watch"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:cov": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:cov"
+            },
+            "metadata": {
+              "scriptContent": "jest --coverage",
+              "runCommand": "npm run test:cov"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:debug": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:debug"
+            },
+            "metadata": {
+              "scriptContent": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+              "runCommand": "npm run test:debug"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:e2e": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:e2e"
+            },
+            "metadata": {
+              "scriptContent": "jest --config ./test/jest-e2e.json",
+              "runCommand": "npm run test:e2e"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "nx:run-commands",
+            "options": {
+              "cwd": "Microservices/call-service",
+              "command": "npm run start:dev"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "executor": "nx:run-commands",
+            "outputs": [
+              "{projectRoot}/dist"
+            ],
+            "options": {
+              "cwd": "Microservices/call-service",
+              "command": "npm run build"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "dependsOn": [
+              "^build"
+            ]
+          },
+          "test": {
+            "executor": "nx:run-commands",
+            "options": {
+              "cwd": "Microservices/call-service",
+              "command": "npm run test"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "Microservices/call-service/src",
+        "implicitDependencies": []
+      }
+    },
+    "lead-service": {
+      "name": "lead-service",
+      "type": "app",
+      "data": {
+        "root": "Microservices/lead-service",
+        "name": "lead-service",
+        "projectType": "application",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "format",
+              "start",
+              "start:dev",
+              "start:debug",
+              "start:prod",
+              "lint",
+              "test:watch",
+              "test:cov",
+              "test:debug",
+              "test:e2e"
+            ]
+          },
+          "description": "",
+          "js": {
+            "packageName": "lead-service",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "format": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "format"
+            },
+            "metadata": {
+              "scriptContent": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+              "runCommand": "npm run format"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start"
+            },
+            "metadata": {
+              "scriptContent": "nest start",
+              "runCommand": "npm run start"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:dev"
+            },
+            "metadata": {
+              "scriptContent": "nest start --watch",
+              "runCommand": "npm run start:dev"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:debug": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:debug"
+            },
+            "metadata": {
+              "scriptContent": "nest start --debug --watch",
+              "runCommand": "npm run start:debug"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:prod": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:prod"
+            },
+            "metadata": {
+              "scriptContent": "node dist/main",
+              "runCommand": "npm run start:prod"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "lint"
+            },
+            "metadata": {
+              "scriptContent": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+              "runCommand": "npm run lint"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:watch": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:watch"
+            },
+            "metadata": {
+              "scriptContent": "jest --watch",
+              "runCommand": "npm run test:watch"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:cov": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:cov"
+            },
+            "metadata": {
+              "scriptContent": "jest --coverage",
+              "runCommand": "npm run test:cov"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:debug": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:debug"
+            },
+            "metadata": {
+              "scriptContent": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+              "runCommand": "npm run test:debug"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:e2e": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:e2e"
+            },
+            "metadata": {
+              "scriptContent": "jest --config ./test/jest-e2e.json",
+              "runCommand": "npm run test:e2e"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "nx:run-commands",
+            "options": {
+              "cwd": "lead-service",
+              "command": "npm run start:dev"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "executor": "nx:run-commands",
+            "outputs": [
+              "{projectRoot}/dist"
+            ],
+            "options": {
+              "cwd": "lead-service",
+              "command": "npm run build"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "dependsOn": [
+              "^build"
+            ]
+          },
+          "test": {
+            "executor": "nx:run-commands",
+            "options": {
+              "cwd": "lead-service",
+              "command": "npm run test"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "$schema": "../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "lead-service/src",
+        "implicitDependencies": []
+      }
+    },
+    "user-service": {
+      "name": "user-service",
+      "type": "app",
+      "data": {
+        "root": "Microservices/user-service",
+        "name": "user-service",
+        "projectType": "application",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "format",
+              "start",
+              "start:dev",
+              "start:debug",
+              "start:prod",
+              "lint",
+              "test:watch",
+              "test:cov",
+              "test:debug",
+              "test:e2e"
+            ]
+          },
+          "description": "",
+          "js": {
+            "packageName": "user-service",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "format": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "format"
+            },
+            "metadata": {
+              "scriptContent": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+              "runCommand": "npm run format"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start"
+            },
+            "metadata": {
+              "scriptContent": "nest start",
+              "runCommand": "npm run start"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:dev"
+            },
+            "metadata": {
+              "scriptContent": "nest start --watch",
+              "runCommand": "npm run start:dev"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:debug": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:debug"
+            },
+            "metadata": {
+              "scriptContent": "nest start --debug --watch",
+              "runCommand": "npm run start:debug"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "start:prod": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "start:prod"
+            },
+            "metadata": {
+              "scriptContent": "node dist/main",
+              "runCommand": "npm run start:prod"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "lint": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "lint"
+            },
+            "metadata": {
+              "scriptContent": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+              "runCommand": "npm run lint"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:watch": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:watch"
+            },
+            "metadata": {
+              "scriptContent": "jest --watch",
+              "runCommand": "npm run test:watch"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:cov": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:cov"
+            },
+            "metadata": {
+              "scriptContent": "jest --coverage",
+              "runCommand": "npm run test:cov"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:debug": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:debug"
+            },
+            "metadata": {
+              "scriptContent": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+              "runCommand": "npm run test:debug"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "test:e2e": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "test:e2e"
+            },
+            "metadata": {
+              "scriptContent": "jest --config ./test/jest-e2e.json",
+              "runCommand": "npm run test:e2e"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "nx:run-commands",
+            "options": {
+              "cwd": "user-service",
+              "command": "npm run start:dev"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "executor": "nx:run-commands",
+            "outputs": [
+              "{projectRoot}/dist"
+            ],
+            "options": {
+              "cwd": "user-service",
+              "command": "npm run build"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "dependsOn": [
+              "^build"
+            ]
+          },
+          "test": {
+            "executor": "nx:run-commands",
+            "options": {
+              "cwd": "user-service",
+              "command": "npm run test"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "$schema": "../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "user-service/src",
+        "implicitDependencies": []
+      }
+    },
+    "client": {
+      "name": "client",
+      "type": "lib",
+      "data": {
+        "root": "client",
+        "name": "client",
+        "tags": [
+          "npm:private"
+        ],
+        "metadata": {
+          "targetGroups": {
+            "NPM Scripts": [
+              "dev",
+              "build",
+              "lint",
+              "preview"
+            ]
+          },
+          "js": {
+            "packageName": "client",
+            "isInPackageManagerWorkspaces": true
+          }
+        },
+        "targets": {
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "metadata": {
+              "scriptContent": "vite",
+              "runCommand": "npm run dev"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "metadata": {
+              "scriptContent": "vite build",
+              "runCommand": "npm run build"
+            },
+            "configurations": {},
+            "parallelism": true,
+            "dependsOn": [
+              "^build"
+            ]
+          },
+          "lint": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "lint"
+            },
+            "metadata": {
+              "scriptContent": "eslint .",
+              "runCommand": "npm run lint"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "preview": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "preview"
+            },
+            "metadata": {
+              "scriptContent": "vite preview",
+              "runCommand": "npm run preview"
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    }
+  },
+  "externalNodes": {},
+  "dependencies": {
+    "notification-service": [],
+    "telecaller-service": [],
+    "media-service": [],
+    "auth-service": [],
+    "call-service": [],
+    "lead-service": [],
+    "user-service": [],
+    "client": []
+  },
+  "version": "6.0",
+  "errors": [],
+  "computedAt": 1761284177252
+}
