@@ -15,7 +15,9 @@ A comprehensive lead management system built with React frontend and NestJS micr
 - npm or yarn
 
 ### Quick Start
+
 .
+
 1. **Clone and Install Dependencies**
 
    ```bash
@@ -66,28 +68,110 @@ Lead-Management/
 ├── client/                 # React frontend
 │   ├── package.json
 │   └── src/
-├── Microservices/          # NestJS microservices
-│   ├── package.json        # Convenience scripts (local only)
+├── Microservices/          # NestJS microservices (Nx monorepo)
+│   ├── package.json        # Nx workspace with shared node_modules
+│   ├── nx.json             # Nx configuration
+│   ├── tsconfig.base.json  # Base TypeScript config
+│   ├── node_modules/       # Shared dependencies for all services
 │   ├── auth-service/
+│   │   ├── package.json
+│   │   ├── project.json    # Nx project config
+│   │   └── src/
 │   ├── user-service/
 │   ├── lead-service/
 │   ├── call-service/
-│   ├── export-service/
-│   ├── settings-service/
-│   └── notification-service/
-└── package.json            # Root package.json
+│   ├── media-service/
+│   ├── notification-service/
+│   └── Telecaller-service/
+└── README.md
 ```
 
 ## 🔧 Development
 
-- **Root package.json**: Contains workspace-level scripts and dependencies
-- **Microservices/package.json**: Local development convenience scripts (not in git)
-- Each service has its own `package.json` with service-specific dependencies
+### Microservices Architecture (Nx Monorepo)
+
+All 7 microservices are managed as an **Nx monorepo** inside the `Microservices/` folder:
+
+- **Shared `node_modules`**: All dependencies are hoisted to `Microservices/node_modules`
+- **Individual `package.json`**: Each service has its own with build/run scripts
+- **Nx orchestration**: Build, test, and serve tasks managed by Nx
+
+### Running Services
+
+**From Microservices folder:**
+
+```bash
+cd Microservices
+
+# Start all services in parallel
+npm run start:all
+
+# Start individual services
+npm run start:auth          # Port 3001
+npm run start:user          # Port 3002
+npm run start:lead          # Port 3003
+npm run start:call          # Port 3004
+npm run start:media         # Port 3005
+npm run start:notification  # Port 3007
+npm run start:telecaller    # Port 3006
+
+# Build all services
+npm run build:all
+
+# View dependency graph
+npm run graph
+```
+
+**Using Nx directly:**
+
+```bash
+cd Microservices
+
+# Serve a specific service
+npx nx serve auth-service
+
+# Build a specific service
+npx nx build lead-service
+
+# Run tests
+npx nx test user-service
+
+# Run multiple tasks in parallel
+npx nx run-many -t build -p auth-service user-service lead-service
+
+# See all available projects
+npx nx show projects
+```
+
+### Adding Shared Libraries (Optional)
+
+To create shared libraries for common code:
+
+```bash
+cd Microservices
+
+# Create a shared library
+npx nx generate @nx/node:library shared/auth-utils --directory=libs/shared/auth-utils
+
+# Create a shared library for database models
+npx nx generate @nx/node:library shared/database --directory=libs/shared/database
+```
+
+Suggested shared library structure:
+
+```
+Microservices/
+└── libs/
+    └── shared/
+        ├── auth-utils/      # JWT helpers, guards, decorators
+        ├── database/        # Mongoose schemas, DTOs
+        ├── common/          # Shared utilities, constants
+        └── types/           # TypeScript interfaces
+```
 
 ## 🌐 Access Points
 
 - **Frontend**: http://localhost:3000
 - **API Services**: http://localhost:3001-3007
 
-All services run independently and can be started/stopped individually
-checking ...
+All services run independently and can be started/stopped individually.
