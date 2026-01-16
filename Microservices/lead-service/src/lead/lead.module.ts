@@ -7,6 +7,7 @@ import { AuthClient } from '../auth/auth.client';
 import { RolesGuard , AdminRoleGuard } from '../auth/roles.guard';
 import { Lead, LeadSchema } from './schema/lead.schema';
 import { TelecallerClient } from '../telecaller/telecaller.client'; // Adjust path if needed
+import { RabbitMqService } from '../messaging/rabbitmq.service';
 
 @Module({
   imports: [
@@ -19,6 +20,7 @@ import { TelecallerClient } from '../telecaller/telecaller.client'; // Adjust pa
     TelecallerClient,
     RolesGuard,
     AdminRoleGuard,
+    RabbitMqService,
   ],
 })
 export class LeadModule {}

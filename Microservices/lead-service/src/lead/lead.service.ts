@@ -9,12 +9,14 @@ import { Model } from 'mongoose';
 import { Lead, LeadDocument, LeadStatus } from './schema/lead.schema';
 import { LeadDto } from './dto/lead.dto';
 import { TelecallerClient } from '../telecaller/telecaller.client';
+import { RabbitMqService } from '../messaging/rabbitmq.service';
 
 @Injectable()
 export class LeadService {
   constructor(
     @InjectModel(Lead.name) private readonly leadModel: Model<LeadDocument>,
     private readonly telecallerClient: TelecallerClient,
+    private readonly rabbitMqService: RabbitMqService,
   ) {}
 
   // Create a new lead
@@ -30,7 +32,12 @@ export class LeadService {
     }
     
     const createdLead = new this.leadModel(leadDto);
-    return createdLead.save();
+    const savedLead = await createdLead.save();
+
+    // fire-and-forget notification for new lead
+    await this.rabbitMqService.publishLeadCreated(savedLead);
+
+    return savedLead;
   }
 
   // Find leads with upcoming follow-ups within a time range
